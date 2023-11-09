@@ -25,6 +25,7 @@ public class BoxView extends StackPane implements Subscriber {
         graphicsContext.setFill(Color.TEAL);
         this.setStyle("-fx-background-color: black;");
         this.getChildren().add(myCanvas);
+        
         //this.setFocusTraversable(true);
     }
 
